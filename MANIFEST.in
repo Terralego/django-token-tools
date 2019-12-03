@@ -1,0 +1,7 @@
+include *.md
+recursive-include token_tools *.md
+recursive-include token_tools *.py
+recursive-include token_tools/static *
+recursive-include token_tools/templates *
+recursive-exclude test_token_tools *
+recursive-exclude token_tools/tests/ *
