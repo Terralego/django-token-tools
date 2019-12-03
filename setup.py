@@ -33,8 +33,12 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Framework :: Django',
+        'Framework :: Django :: 2.2',
+        'Framework :: Django :: 3.0',
     ],
     install_requires=[
-        'django>=2.1,<3.0',
+        'django>=2.2',
     ],
 )
