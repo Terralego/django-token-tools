@@ -1,9 +1,11 @@
-0.1.1 (XXXX-XX-XX)
--------------------
+0.1.1.dev0      (XXXX-XX-XX)
+----------------------------
 
 * Documentation improvement
+* add support for django 3.0 and python 3.8
 
-0.1 (2019-10-15)
+
+0.1.0  (2019-10-15)
 -------------------
 
 * First release
