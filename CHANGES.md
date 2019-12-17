@@ -1,4 +1,4 @@
-0.1.1.dev0      (XXXX-XX-XX)
+0.1.1           (2019-12-17)
 ----------------------------
 
 * Documentation improvement
