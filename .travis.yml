@@ -61,7 +61,7 @@ jobs:
         skip_cleanup: true
         stage: deploy
         provider: pypi
-        user: "$PYPI_USER"
+        user: __token__
         password:
           secure: Vew95Uui2gDnG9RnkA0l0qoaPEs/D507BjgKq3OKtJJP+wp65V8WHvrPgaRVgXhRSgF2MDC/ytl+/OUJNgyfbp1PAlIuB8QcoghWF3sIWFnNFR5X/xlY2QgrWrPAt779h+ofmgW9WBKF4TOxJCw6HjAsBDgTZ4DSC6HkJuVmB4lJ2pX2PBtzS8Q1CQxfGVdA+ya89MIXeIfLfX9+P6OYcQAlk9a9nr77cwcxJSl2ZHdGZvUE/d76a45P5o2kGbI2XeDR7uuunuoOAKw0LWPPDbF569NYwJWrczEmXIaaToC/vnqpD6awkoXDGZHFkdiku70vHuiL/LAnGJ/uf+u14altvipFfc5VmHylYhsR3EUldOykqC1zl4Y7Yska5+qW5o1c60snxetilNL3+0DP9QTlgK3eKd8y4KFoDeuqx8wZkpursr6aYyiYaUYcCPfw42I7lr/jB4va/RfU3TGozSn3Io5IlhjjZiZCLcqFXJ+yHrOt3sOGJAAEjxH+vUbkdtH7ipLTPpQkp80EMFS76nsD+glBKUad02zdpv2MAQ7OnWMl4hEzqYlidPj7f1EAGq5N+/ST82eqd807Q+aN9A5UfejQqRMItdjRekUsOEsXzmxb6lMzzgj2Qq3zMWiA10VLZKNvNDpjeggugGl33X/isq7jDGcNNWUyPnFrHLc=
         on:
