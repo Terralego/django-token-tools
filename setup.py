@@ -45,4 +45,10 @@ setup(
     install_requires=[
         'django>=2.2',
     ],
+    extras_require={
+        'dev': [
+            'coverage',
+            'flake8',
+        ]
+    }
 )
