@@ -4,6 +4,8 @@ from django.conf import settings
 from django.utils.crypto import constant_time_compare, salted_hmac
 from django.utils.http import base36_to_int, int_to_base36, urlsafe_base64_decode
 
+from token_tools.settings import TOKEN_TIMEOUT
+
 
 class TokenGenerator:
     """
@@ -67,7 +69,7 @@ class TokenGenerator:
             return False
 
         # Check the timestamp is within limit.
-        if (self.timestamp - ts) > settings.TOKEN_TIMEOUT:
+        if (self.timestamp - ts) > TOKEN_TIMEOUT:
             return False
 
         return True

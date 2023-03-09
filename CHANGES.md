@@ -1,6 +1,7 @@
 0.2.0
 ---------------------------
 
+* Use default settings for TOKEN_TIMEOUT
 * Support Dajngo 4.1
 * Support Python 3.10
 
