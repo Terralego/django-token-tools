@@ -1,4 +1,5 @@
 from django.test import TestCase
+
 from token_tools.generator import TokenGenerator
 
 
